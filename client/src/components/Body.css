@@ -1,0 +1,32 @@
+.caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.caption h3 {
+  color: #fff;
+}
+
+.section-btn {
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: inherit;
+  font-weight: normal;
+  padding: 15px 30px;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.section-btn:hover {
+  background: #ffffff;
+  border-color: transparent;
+}

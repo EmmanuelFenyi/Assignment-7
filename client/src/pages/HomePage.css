@@ -1,0 +1,8 @@
+.img-item1 {
+  background-image: url(../images/slider-image1.jpg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: rgba(38, 39, 41, 0.527);
+  background-blend-mode: multiply;
+}

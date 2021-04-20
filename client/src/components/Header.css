@@ -1,0 +1,16 @@
+header {
+  margin-top: 2%;
+}
+
+.navItem {
+  justify-content: space-evenly;
+  background-color: silver;
+  display: flex;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+

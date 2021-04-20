@@ -1,0 +1,40 @@
+.reg-form{
+    /* background-color: springgreen; */
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.reg-form >button{
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+
+}
+
+.reg-form > button:hover{
+    box-shadow: 2px 2px 2px #000,
+    -2px -2px 3px silver;
+}
+.reg-form>button:active{
+    box-shadow: 2px 2px 2px silver ,
+    -2px -2px 3px #000;
+}
+input,
+select {
+  margin-bottom: 3%;
+  height: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
